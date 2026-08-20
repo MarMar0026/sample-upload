@@ -1,0 +1,66 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url("Facade.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Title-Card-1 {
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.Images {
+    margin: 10px auto;
+    padding: 30px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 280px;
+    margin: 10px;    
+    border-radius: 15px;
+    
+}
+
+.Title-Card-2 {
+    margin: 20px 10px;
+    padding: 18px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.Audio {
+    margin: 35px 15px;
+    padding: 45px 35px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.Audio audio {
+    width: min(100%, 420px);
+    margin: 1rem auto 0.5rem;
+}
+
+.Title-Card-3 {
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.Videos {
+    margin: 10px; /* reduced margin to close gap between divisions */
+    padding: 20px; /* slightly smaller padding */
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+   
+}
